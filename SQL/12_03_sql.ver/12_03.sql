@@ -92,3 +92,4 @@ delete from products where productLine="";
 delete from customers where country="";
 -- 특정 카테고리의 모든 제품 삭제
 delete from products where productLine="";
+SELECT VERSION();
