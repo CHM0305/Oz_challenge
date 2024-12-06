@@ -14,7 +14,7 @@ connection = pymysql.connect(
     password="1234",  # 비밀번호
     database="db_test", # db 이름
     charset="utf8mb4",
-    cursorclass=DictCursor,
+    cursorclass=DictCursor
 )
 
 try:
