@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>사용자 정보 입력받고 출력하기</title>
-    <style>
-        color
-    </style>
+
 </head>
 <body>
     <h1 id="name"></h1>
@@ -21,10 +19,10 @@
 
         const animalElement = document.querySelector("#animal")
         let animal = prompt("당신이 좋아하는 동물은?")
-        animalElement.textContent = '취미는 ${animal}입니다!'
+        animalElement.textContent = `좋아하는 동물은 ${animal}입니다!`
 
         document.querySelector("#fruit")
-        .textContent='좋아하는 곡은 ${prompt("좋아하는 과일은?")}입니다!'
+        .textContent=`좋아하는 곡은 ${prompt("좋아하는 과일은?")}입니다!`
     </script>
 </body>
 </html>
