@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for song in song_list %}
+    	{% if forloop.counter0 == num2 %}
+            <h1>{{ song.title }}</h1>
+            <p>가수 : {{ song.singer }}</p>
+    	{% endif %}
+    {% endfor %}
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for song in song_list %}
+        {% if forloop.counter <= 3 %}
+            {{ forloop.counter }}위 : <a href="/songs/{{ forloop.counter0 }}">{{ song.title }}</a><br>
+        {% endif %}
+    {% endfor  %}
+<!--end for: for문을 끝낸다!-->
+</body>
+</html>
